@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Write brain tv</title>
+
+	<!--owl carousel slider-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.	js"></script>
+
+	<!--animated css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<!--swiper slider-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+	<!--stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--fontawsome-->
+	<script src="https://kit.fontawesome.com/86309c4994.js" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+
+			jQuery('.banner-slider').owlCarousel({
+			    'items': 1,
+			  	'loop': true,
+			  	'dots': false,
+			  	'nav':true,
+			  	'autoplay':false,
+			  	'animateOut':'fadeOut',
+			  	'animateIn':'animate__fadeInUp',
+			  	
+			});
+
+			var swiper = new Swiper(".center-slider", {
+	        effect: "coverflow",
+
+	        loop: true,
+	        grabCursor: true,
+	        centeredSlides: true,
+	        slidesPerView: "auto",
+	        coverflowEffect: {
+	          rotate: 50,
+	          stretch: 0,
+	          depth: 100,
+	          modifier: 1,
+	          slideShadows: true,
+
+
+	        },
+	         navigation: {
+	          nextEl: ".swiper-button-next",
+	          prevEl: ".swiper-button-prev",
+	        },
+	        // pagination: {
+	        //   el: ".swiper-pagination",
+	        // },
+	      });
+
+
+			jQuery('.series-slider3').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav:true,
+			    items:5,
+			    margin:50,
+			    smartSpeed:1000,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			});
+
+
+			jQuery('.flims-slider4').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav:true,
+			    items:6,
+			    margin:50,
+			    smartSpeed:1000,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        500:{
+			        		items:2
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			});
+
+			
+			jQuery('.music-slider4').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav:true,
+			    items:6,
+			    margin:50,
+			    smartSpeed:1000,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			});
+
+
+			jQuery('.Written-Works-slider4').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav:true,
+			    items:6,
+			    margin:50,
+			    smartSpeed:1000,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			});
+			
+
+			jQuery('.podcast-slider2').owlCarousel({
+			    loop:false,
+			    margin:10,
+			    nav:true,
+			    items:5,
+			    margin:50,
+			    smartSpeed:1000,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			});
+
+		});
+	</script>
+</head>
+<body>
+<div class="header-top">
+	<div class="left">
+		<div class="menu-icon">
+			<div class="menu-box">
+				<div class="hamburger"></div>
+				<ul class="sub-menu">
+					<li><a href="#">SERIES</a></li>
+					<li><a href="#">FILMS</a></li>
+					<li><a href="#">MUSIC</a></li>
+					<li><a href="#">WRITTEN WORKS</a></li>
+					<li><a href="#">PODCAST</a></li>
+					<li><a href="#">TV GUIDE</a></li>
+					<li><a href="#">SHOP</a></li>
+				</ul>
+			</div>
+			<h4>Submit Your Work</h4>
+		</div>
+	</div>
+	<div class="center">
+		<div class="logo">
+			<a href=""><img src="images/WBTV-Logo.png"></a>
+		</div>
+	</div>
+	<div class="right">
+		<ul class="search-menu">
+			<li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+			<li><a href="">Become A Member</a></li>
+			<li><a href="">Log In</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="header-slider">
+	<div class="owl-carousel owl-theme banner-slider">
+	    <div class="item" style="background-image: url(images/slide1.png);">
+	    	<div class="item-box">
+		    	<h1 class="slider-text">
+		    		<a href="">Exclusive Write Brain TV content</a>
+		    	</h1>
+		    	<div class="slider-content">
+		    		<p>Write Brain TV offers exclusive content created by our art collective. Our eye-opening documentaries past and future are a click away. We also have new podcasts, written works, music, and original series.</p>
+		    	</div>
+		    	<div class="slider-btn">
+		    		<a class="">Start Watching</a>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div class="item" style="background-image: url(images/slide2.jpg);">
+	    	<div class="item-box">
+		    	<h1 class="slider-text">
+		    		<a href="">Write Brain TV is a community</a>
+		    	</h1>
+		    	<div class="slider-content">
+		    		<p>This website is currently in its beta-phase, constantly growing and evolving. Our membership is part of that experience. We want you to grow with us, to create a space for underground art to live.</p>
+		    	</div>
+		    	<div class="slider-btn">
+		    		<a class="">Join The Movement</a>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div class="item" style="background-image: url(images/slide3.jpg);">
+	    	<div class="item-box">
+		    	<h1 class="slider-text">
+		    		<a href="">Underground cinema from around the world</a>
+		    	</h1>
+		    	<div class="slider-content">
+		    		<p>Every month we bring new underground films you won’t find anywhere else. Cultivating art from up-and-coming visionaries outside of the scope of the mainstream. Check the Write Brain TV Guide to see what’s playing!</p>
+		    	</div>
+		    	<div class="slider-btn">
+		    		<a class="">Write Brain TV Guide</a>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div class="item" style="background-image: url(images/slide4.jpg);">
+	    	<div class="item-box">
+		    	<h1 class="slider-text">
+		    		<a href="">It's a flash sale! Yearly memberships 45% off!</a>
+		    	</h1>
+		    	<div class="slider-content">
+		    		<p><span>We’re the only underground anti-imperialist streaming site on the web! To celebrate the last month of Phase II, yearly memberships are JUST $25! That gives you full access to ALL our exclusive underground content.&nbsp;</span></p>
+		    	</div>
+		    	<div class="slider-btn">
+		    		<a class="">Join Now</a>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div class="item" style="background-image: url(images/slide5.jpg);">
+	    	<div class="item-box">
+		    	<h1 class="slider-text">
+		    		<a href="">Free classic movies every Monday</a>
+		    	</h1>
+		    	<div class="slider-content">
+		    		<p>Times are tough. That’s why we offer FREE underground classics every week. You’ve got 7 days before we switch to a new film. Expect the unexpected, as we cast a light into the shadows of obscure cinema.</p>
+		    	</div>
+		    	<div class="slider-btn">
+		    		<a class="">Watch Now</a>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div class="item" style="background-image: url(images/slide6.jpg);">
+	    	<div class="item-box">
+		    	<h1 class="slider-text">
+		    		<a href="">A "two-way" streaming experience</a>
+		    	</h1>
+		    	<div class="slider-content">
+		    		<p>Unlike the costly price of film festivals, we allow unlimited submissions to our members. We don’t believe expensive fees should be a gatekeeper to creativity and visability. We want to license and feature your content.</p>
+		    	</div>
+		    	<div class="slider-btn">
+		    		<a class="">Submit Now</a>
+		    	</div>
+	    	</div>
+	    </div>
+	</div>
+</div>
+
+
+<div class="slider-3d container">
+	 <div class="swiper mySwiper center-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/animation1.jpg">
+          <div class="animation-text">
+          	<h2 class="dnxte-coverflow-heading">The War On Democracy</h2>
+          	<P><span>This time John Pilger get behind the camera as a director, rather than just a journalist, as he maps out the dense history of the United States and its allies spending the last quarter century toppling any socialist government that dares to question its motives or fight back against its expanding business interests.</span></P>
+          	<a class="dnxte-coverflow-button" href="" target="_self">Watch Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/animation2.jpg">
+          <div class="animation-text">
+          	<h2 class="dnxte-coverflow-heading">The Sanctioned Films Of North Korea</h2>
+          	<p>DPRK is one of the most sanctioned, isolated, stigmatized, and misunderstood nations in the world. Write Brain TV invites you to cross the boundaries into the forbidden land and enjoy this special film series bringing 8 films, curated with introductions by Dr. Dermot Hudson.</p>
+          	<a class="dnxte-coverflow-button" href="" target="_self">Watch Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/animation3.jpg">
+          <div class="animation-text">
+          	<h2 class="dnxte-coverflow-heading">The Origins Of Cinema Podcast</h2>
+          	<P><span>is a groundbreaking, experimental hybrid Podcast/Film Series that tracks the history of the moving image from the dawn of humanity all the way up to the Golden Age of Hollywood. Hosted by Write Brain TV founder Marc Rubendall!</span></P>
+          	<a class="dnxte-coverflow-button" href="" target="_self">Listen Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/animation4.jpg">
+          <div class="animation-text">
+          	<h2 class="dnxte-coverflow-heading">Kafka</h2>
+          	<P><span>“Kafka”, an outlier amongst Soderbergh’s films, merges one of literature’s most mysterious and prophetic writers with the writer’s own stories, molding fact and fiction into a German expressionist kaleidscope of broken dreams and elegant nightmares.</span></P>
+          	<a class="dnxte-coverflow-button" href="" target="_self">Listen Now</a>
+          </div>
+        </div>
+      </div>
+      	<div class="swiper-button-next"></div>
+      	<div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+
+<div class="series">
+	<div class="series-text">
+		<h1>Series</h1>
+	</div>
+	<div class="slide_mask">
+		<div class="series-slider3 owl-carousel">
+			<div>
+				<img src="images/series1.jpg">
+				<h3>Kevin Ronca: Experimental Docs</h3>
+			</div>
+			<div>
+				<img src="images/series2.jpg">
+				<h3>Write Past Midnite</h3>
+			</div>
+			<div>
+				<img src="images/series3.jpg">
+				<h3>The John Pilger Collection</h3>
+			</div>
+			<div>
+				<img src="images/series4.jpg">
+				<h3>Women Of The Avant Grade (1922-1967)</h3>
+			</div>
+			<div>
+				<img src="images/series5.jpeg">
+				<h3>Food For Thought With Jan Svankmajer</h3>
+			</div>
+			<div>
+				<img src="images/series6.jpeg">
+				<h3>The Early Films Of Stephen McCoy</h3>
+			</div>
+			<div>
+				<img src="images/series7.jpg">
+				<h3>Perversions Of Grandeur W/ Toshio <br>Matsumoto</h3>
+			</div>
+			<div>
+				<img src="images/series8.jpeg">
+				<h3>Stephen McCoy: The Photochemical Collection</h3>
+			</div>
+			<div>
+				<img src="images/series9.jpg">
+				<h3>Essential Maya Deren</h3>
+			</div>
+			<div>
+				<img src="images/series10.jpg">
+				<h3>The Revolution Televised</h3>
+			</div>
+			<div>
+				<img src="images/series11.jpg">
+				<h3>Eyes Of The World</h3>
+			</div>
+			<div>
+				<img src="images/series12.jpg">
+				<h3>Kenneth Anger: The Magick Lantern Cycle</h3>
+			</div>
+			<div>
+				<img src="images/series13.jpg">
+				<h3>The Origins Of Cienema: The First 30 Years</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="heading">
+		<a href="#">View All</a>
+	</div>
+</div>
+
+
+<div class="films">
+	<div class="flims-text">
+		<h1>Films</h1>
+	</div>
+
+	<div class="slide_mask">
+		<div class="flims-slider4 owl-carousel">
+			<div>
+				<img src="images/films1.jpg">
+				<h3>The Nightcrawlers Mixtape</h3>
+			</div>
+			<div>
+				<img src="images/films2.jpg">
+				<h3>Of Human Bondage / Rain</h3>
+			</div>
+			<div>
+				<img src="images/films3.jpg">
+				<h3>Die Dritte Generation</h3>
+			</div>
+			<div>
+				<img src="images/films4.jpg">
+				<h3>Yang Metal Rat</h3>
+			</div>
+			<div>
+				<img src="images/films5.png">
+				<h3>Sweet Home</h3>
+			</div>
+			<div>
+				<img src="images/films6.jpg">
+				<h3>Senior Love Triangle</h3>
+			</div>
+			<div>
+				<img src="images/films7.png">
+				<h3>The Hour Of The Furnaces</h3>
+			</div>
+			<div>
+				<img src="images/films8.jpg">
+				<h3>Ukraine On Fire</h3>
+			</div>
+			<div>
+				<img src="images/films9.png">
+				<h3>King Baby</h3>
+			</div>
+			<div>
+				<img src="images/films10.jpg">
+				<h3>Massage The Tape</h3>
+			</div>
+			<div>
+				<img src="images/films11.jpg">
+				<h3>A Grin Without A Cat</h3>
+			</div>
+			<div>
+				<img src="images/films12.jpg">
+				<h3>Nightcrawlers:The Director's <br>Cut</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="heading">
+		<a href="#" class="view-a">View All</a>
+	</div>
+</div>
+
+<div class="music">
+	<div class="music-text">
+		<h1>Music</h1>
+	</div>
+
+	<div class="slide_mask">
+		<div class="music-slider4 owl-carousel">
+			<div>
+				<img src="images/music1.jpg">
+				<h3>Jak Progresso-Pendragon</h3>
+			</div>
+			<div>
+				<img src="images/music2.jpg">
+				<h3>Bluestaeb & S. Fidelity Present:<br>Underground Canopy</h3>
+			</div>
+			<div>
+				<img src="images/music3.jpg">
+				<h3>Marchitect-The Industry's My <br>Footstool</h3>
+			</div>
+			<div>
+				<img src="images/music4.jpg">
+				<h3>Nightcrawlers O.S.T</h3>
+			</div>
+			<div>
+				<img src="images/music5.jpg">
+				<h3>YANG METAL RAT O.S.T</h3>
+			</div>
+			<div>
+				<img src="images/music6.png">
+				<h3>A Good Woman Is Hard To Find </h3>
+			</div>
+			<div>
+				<img src="images/music7.png">
+				<h3>Dead At The Range</h3>
+			</div>
+			<div>
+				<img src="images/music8.png">
+				<h3>Strawberry Sleepover - <br>Exploding Strawberry Inevitable</h3>
+			</div>
+			<div>
+				<img src="images/music9.png">
+				<h3>Phantom Ships - Phantom Ships</h3>
+			</div>
+			<div>
+				<img src="images/music10.png">
+				<h3>The Dead Ringers - Essex Boys</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="heading">
+		<a href="#" class="view-a">View All</a>
+	</div>
+</div>
+
+<div class="written-works">
+	<div class="written-works-text">
+		<h1>Written-Works</h1>
+	</div>
+
+	<div class="slide_mask">
+		<div class="Written-Works-slider4 owl-carousel">
+			<div>
+				<img src="images/written1.jpg">
+				<h3>The Complete Short Stories Of <br> W. Somerset Maugham</h3>
+			</div>
+			<div>
+				<img src="images/written2.jpg">
+				<h3>Write Brain TV Guide</h3>
+			</div>
+			<div>
+				<img src="images/written3.jpg">
+				<h3>The Devils</h3>
+			</div>
+			<div>
+				<img src="images/written4.png">
+				<h3>The Paris Commune</h3>
+			</div>
+			<div>
+				<img src="images/written5.png">
+				<h3>The Short-Timers</h3>
+			</div>
+			<div>
+				<img src="images/written6.png">
+				<h3>Pimp: The Story Of My Life</h3>
+			</div>
+			<div>
+				<img src="images/written7.jpg">
+				<h3>The Liberator Collection I</h3>
+			</div>
+			<div>
+				<img src="images/written8.jpg">
+				<h3>Unidentified White MAle</h3>
+			</div>
+			<div>
+				<img src="images/written9.jpg">
+				<h3>The Liberator Collection II</h3>
+			</div>
+			<div>
+				<img src="images/written10.jpg">
+				<h3>PIHKAL</h3>
+			</div>
+			<div>
+				<img src="images/written11.jpg">
+				<h3>The Liberator Collection III</h3>
+			</div>
+			<div>
+				<img src="images/written12.jpg">
+				<h3>Selected Short Stories Of Franz <br>Kafka</h3>
+			</div>
+			<div>
+				<img src="images/written13.jpg">
+				<h3>Blood Meridian</h3>
+			</div>
+			<div>
+				<img src="images/written14.png">
+				<h3>Guerilla Magazine II</h3>
+			</div>
+			<div>
+				<img src="images/written15.jpg">
+				<h3>The Voices Of Palestine</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="heading">
+		<a href="#">View All</a>
+	</div>
+</div>
+
+
+<div class="podcast">
+	<div class="podcast-text">
+		<h1>Podcast</h1>
+	</div>
+
+	<div class="podcast-slider2 owl-carousel">
+		<div>
+			<img src="images/podcast1.jpg">
+		</div>
+		<div>
+			<img src="images/podcast2.jpg">
+		</div>
+	</div>
+
+	<div class="heading">
+		<a href="#">View All</a>
+	</div>
+</div>
+
+
+<div class="footer-sec">
+	<div class="footer-text">
+		<ul class="et-social-icons">
+			<li class="et-social-icon et-social-facebook">
+				<a href="" class="icon">
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li class="et-social-icon et-social-instagram">
+				<a href="" class="icon">
+					<span>Instagram</span>
+				</a>
+			</li>
+			<!-- <li class="et-social-icon">
+				<a class="icon socicon socicon-tiktok" href="" aria-label="TikTok">
+					<span>TikTok</span>
+				</a>
+			</li> -->
+		</ul>
+		<div id="footer-info">
+			© 2021-2022 Write Brain Studio. All rights reserved. | 
+			<a href="">Terms</a>
+		</div>			
+	</div>
+</div>
+</body>
+</html>
